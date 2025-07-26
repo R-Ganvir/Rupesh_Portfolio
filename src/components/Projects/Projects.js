@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import ProjectCard from "./ProjectCards";
-import Dashboard from "../../Assets/Projects/Dashboard_1.png";
+// import Dashboard from "../../Assets/Projects/Dashboard_1.png";
 import Portfolio from "../../Assets/Projects/Rup_portfolio.png";
-import Shopping_Karo from "../../Assets/Projects/Shopping_Karo.png";
-import Weather_App from "../../Assets/Projects/Weather_App.png";
+// import Shopping_Karo from "../../Assets/Projects/Shopping_Karo.png";
+// import Weather_App from "../../Assets/Projects/Weather_App.png";
 
 import "./project.css";
 
