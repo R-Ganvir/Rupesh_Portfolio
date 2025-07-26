@@ -59,7 +59,7 @@ function Projects() {
                 </ul>
               }
               ghLink="https://github.com/R-Ganvir/Rupesh_Portfolio"
-              demoLink="https://rupesh-ganvir-portfolio.netlify.app/project"
+              demoLink="https://rupesh-ganvir-portfolio.netlify.app"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
