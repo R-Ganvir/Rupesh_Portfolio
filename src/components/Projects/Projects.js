@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCards";
 // import Dashboard from "../../Assets/Projects/Dashboard_1.png";
 import Portfolio from "../../Assets/Projects/Rup_portfolio.png";
 // import Shopping_Karo from "../../Assets/Projects/Shopping_Karo.png";
-// import Weather_App from "../../Assets/Projects/Weather_App.png";
+import login from "../../Assets/Projects/login_page.jpg";
 
 import "./project.css";
 
@@ -86,24 +86,20 @@ function Projects() {
           </Col>
 
           <Col md={6} lg={4} className="project-card">
-            {/* <ProjectCard
-              imgPath={Weather_App}
-              title="Weather App"
+            <ProjectCard
+              imgPath={login}
+              title="Login Page"
               description={
                 <ul>
-                  <li>
-                    Built a weather application that provides current weather
-                    conditions, weekly forecasts, and location-based weather
-                    updates using OpenWeather API.
-                  </li>
-                  <li>
-                    Implemented responsive design with Bootstrap, ensuring
-                    compatibility and usability across all devices.
+                  <li> Created my first website using only HTML and CSS, focusing on clean and semantic markup. 
+                  </li> 
+                  <li> Designed and implemented responsive layouts and visually appealing styles without using JavaScript or external frameworks. 
                   </li>
                 </ul>
               }
-              ghLink=""
-            /> */}
+              ghLink="https://github.com/R-Ganvir/login"
+              demoLink="https://r-ganvir.github.io/login/"
+            />
           </Col>
         </Row>
       </Container>
