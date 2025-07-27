@@ -233,3 +233,20 @@
   min-width: 300px;
 }
 
+@media (max-width: 480px) {
+  .skills-card-view {
+    min-width: 100% !important;
+    flex: none;
+  }
+
+  /* Optional: Adjust about-skills inside skills-list-container */
+  .skills-list-container .about-skills {
+    min-width: auto !important;
+    flex: none !important;
+  }
+
+  /* Optional: Reduce gaps for small screen */
+  .skills-container {
+    gap: 10px;
+  }
+}
